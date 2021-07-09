@@ -1,0 +1,208 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #0a192f;
+  font-family: Bitter, Arial, -apple-system, system-ui, sans-serif;
+  font-size: inherit;
+  color: #fff;
+}
+
+p {
+  margin: 15px 0;
+}
+
+section {
+  padding: 100px 0;
+}
+.nav {
+  margin-right: 50px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.nav ul {
+  text-align: right;
+  list-style: none;
+  margin-right: 12px;
+  color: white;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  text-decoration: none;
+  float: right;
+  color: white;
+  display: block;
+  margin-right: 16px;
+  font-family: monospace;
+}
+
+li span {
+  color: green;
+}
+
+.main {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 200px;
+  margin-right: 300px;
+}
+
+.intro {
+  color: green;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.name {
+  color: white;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: gray;
+  margin-top: 40px;
+}
+
+.name__text {
+  font-size: 50px;
+  font-weight: 900px;
+  color: white;
+}
+
+.intro__text {
+  color: lightgray;
+  font-family: monospace;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  max-width: 80ch;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #0a192f;
+  color: green;
+  border: 1px solid green;
+  padding: 10px 30px;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+.btn__getInTouch {
+  margin-top: 40px;
+}
+.section__title {
+  color: white;
+  font-family: inherit;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+}
+
+.aboutMe__title {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.aboutMe__info,
+.aboutMe__img {
+  flex-grow: 1;
+}
+
+.aboutMe__info {
+  font-family: monospace;
+  line-height: 1.5;
+}
+
+.aboutMe__img img {
+  width: 100%;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.project {
+  display: flex;
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-family: monospace;
+  line-height: 1.5;
+  column-gap: 50px;
+  margin-bottom: 25px;
+}
+
+.project__name {
+  color: green;
+  font-size: 1.7rem;
+}
+.project__desc li {
+  color: #fff;
+}
+ul li {
+  color: gray;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__title {
+  color: green;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.contact__inTouch {
+  font-size: 3rem;
+}
+
+.contact p {
+  max-width: 80ch;
+  font-size: 1.4rem;
+  font-family: monospace;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.socialMedia {
+  position: fixed;
+  left: 30px;
+  bottom: 40px;
+  display: flex;
+  column-gap: 20px;
+
+  font-size: 2rem;
+  color: #fff;
+}
+
+.socialMedia a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socialMedia a:hover {
+  color: green;
+}
